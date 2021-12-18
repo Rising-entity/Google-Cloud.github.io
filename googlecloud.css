@@ -13,13 +13,30 @@ body {
 }
 
  #list1{
+    position: absolute;
+     width: 100vw;
+     height: 5;
+     padding-bottom:26px ;
+     border-bottom: 1px solid rgb(163, 154, 154);
+     background: white;
+     /* position:sticky;  */
+     top: -60px;
+}
+#list1 li {
+    display: inline-block;
+    margin: 10px 0px 0px 37px;
+}
+
+#list11{
+    /* position: fixed; */
      width: 100vw;
      padding-bottom:26px ;
      border-bottom: 1px solid rgb(163, 154, 154);
+     background: white;
      /* position:sticky;  */
      /* top: 0px; */
 }
-#list1 li {
+#list11 li {
     display: inline-block;
     margin: 10px 0px 0px 37px;
 }
